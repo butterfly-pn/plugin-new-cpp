@@ -20,7 +20,7 @@ $ omf install https://github.com/butterfly-pn/plugin-new-cpp
 ## Usage
 
 ```fish
-new <project_name>
+new-cpp <project_name>
 
 # nano window will be open to enter test input
 ```
