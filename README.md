@@ -13,7 +13,7 @@
 ## Install
 
 ```fish
-$ omf install new-cpp
+$ omf install https://github.com/butterfly-pn/plugin-new-cpp
 ```
 
 
