@@ -1,11 +1,21 @@
-if not test -d ~/.new
-  mkdir ~/.new
-end
+mkdir ~/.new
 
-if not test -e ~/.new/Makefile
-  cp Makefile.new ~/.new/Makefile
-end
+echo "#include <iostream>
 
-if not test -e ~/.new/main.cpp
-  cp main.cpp.new ~/.new/main.cpp
-end
+using namespace std;
+
+int main()
+{
+
+  return 0;
+}" > ~/.new/main.cpp
+
+echo "
+run: output input.in
+	./output < input.in
+
+output: main.cpp
+	g++ main.cpp -o output
+
+clear:
+	rm output" > ~/.new/Makefile
