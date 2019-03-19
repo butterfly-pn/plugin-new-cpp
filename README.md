@@ -13,7 +13,7 @@
 ## Install
 
 ```fish
-$ omf install https://github.com/butterfly-pn/plugin-new-cpp
+$ omf install https://github.com/pniedzwiedzinski/plugin-new-cpp
 ```
 
 
@@ -54,8 +54,8 @@ make clean
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/butterfly-pn
-[contributors]:   https://github.com/butterfly-pn/plugin-new-cpp/graphs/contributors
+[author]:         https://github.com/pniedzwiedzinski
+[contributors]:   https://github.com/pniedzwiedzinski/plugin-new-cpp/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
