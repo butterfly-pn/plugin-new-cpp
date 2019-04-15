@@ -51,7 +51,7 @@ make clean
 
 ## Customization
 
-You can add `~/.new/header` in file content of header for `main.cpp` file.
+You can add in `~/.new/header` content of header for `main.cpp` file.
 
 # License
 
