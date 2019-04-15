@@ -6,7 +6,12 @@ Create new C++ Project"
   else
     echo Creating new C++ project $argv
     mkdir $argv
-    cp ~/.new/main.cpp $argv
+    if test -e ~/.new/header
+      cat ~/.new/header > $argv/main.cpp
+      cat ~/.new/main.cpp >> $argv/main.cpp
+    else
+      cp ~/.new/main.cpp $argv
+    end
     touch $argv/input.in
     nano $argv/input.in
     cp ~/.new/Makefile $argv

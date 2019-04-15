@@ -9,6 +9,7 @@
 
 <br/>
 
+[![asciicast](https://asciinema.org/a/241025.png)](https://asciinema.org/a/241025)
 
 ## Install
 
@@ -47,6 +48,10 @@ To remove binaries
 ```fish
 make clean
 ```
+
+## Customization
+
+You can add `~/.new/header` in file content of header for `main.cpp` file.
 
 # License
 
